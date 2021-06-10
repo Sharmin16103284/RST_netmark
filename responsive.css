@@ -337,6 +337,48 @@
 
 
 
+
+
+.order{
+    display: flex;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 5%;
+    flex-direction: column;  
+    margin-right: 5%;
+    max-width: 100%;
+    padding-top: 180px;
+    padding-bottom: 0;
+}
+
+.order .col-left{
+    flex-basis: 100%;
+    margin-top: 50%;
+    height: 70vh;
+    flex-direction: column;  
+    width: 100%;
+    align-items: center;
+    flex-direction: column; 
+}
+.order .col-left .about-image img{
+    height: 75%;
+    margin-top: -50%;
+    margin-left: -40%;
+    flex-direction: column;  
+    width: 90%;
+    /* margin-left: -18%; */
+    position: absolute;
+}
+
+.order .col-right .txt .section-title{
+    margin-left: 25%;
+} 
+
+.order .col-right .txt a {
+    margin-left: 30%;
+}
+
+
   
   }
   
