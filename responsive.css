@@ -1,0 +1,379 @@
+
+@media only screen and (max-width:708px) {
+    .cta{
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }  
+    
+  
+    /* project */
+  .about .col-left{
+      flex-direction: row;
+      margin: 8% auto;
+
+  }
+  
+  .about .col-left .about-image img{
+    padding-top: 10%;
+    height: 45%;
+    width: 45%;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .about .col-left .image img{
+    background-size: cover;
+    height: 200%;
+    width: 200%;
+    margin-left: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.about .col-left .bg{
+    position: relative;
+    left: 35%;
+    top: -2%;
+    height: 100px;
+    width: 80px;
+    margin-left: 20px;
+    background-color: rgb(255, 192, 167);
+    border: 5pc solid rgb(255, 192, 167);
+    
+}
+
+
+.about .col-right{
+    flex-direction: row;
+    flex-basis: 50%;
+    width: 100%;
+    margin-top: 100%;
+    align-items: flex-start; 
+    text-align: left;
+}
+
+
+.about .col-right h2{
+    font-size: 5rem;
+    margin-left: -50%;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.col-right p{
+    margin-bottom: 30px;
+    text-align: justify;
+    margin-left: -50%;
+    margin-right: 25%;
+    color: rgba(43, 58, 65, 1);
+} 
+.about .col-right .cta{
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -70%;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(43, 58, 65, 1);
+    border: 1px solid;
+    margin: 2px;
+    padding: 10px;
+}
+
+.about .col-right .cta:hover {
+    background-color: rgb(255, 192, 167);
+    color: black;
+    transition: 1s ease color, background-color;
+    border: 1px solid rgb(255, 192, 167);
+}
+
+.appointment{
+    display: flex;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 90%;
+    padding-top: 600px;
+    padding-bottom: 0;
+}
+
+.appointment .col-left{
+    flex-basis: 50%;
+    margin-top: 70%;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.appointment .col-left .about-image img{
+    height: 75%;
+    margin-top: -10%;
+    width: 83%;
+    margin-left: -68%;
+    position: absolute;
+}
+
+.appointment .image img{
+    background-size: cover;
+    height: 290px;
+    width: 83%;
+    margin-left: 20%;
+    position: relative;
+}
+
+
+.appointment .col-right{
+    flex-basis: 50%;
+    width: 105%;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.appointment .col-right .txt{
+    width: 150%;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+}
+
+.appointment .section-title{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-left: 25%;
+    text-align: center;
+}
+
+.appointment .col-right h2{
+    font-size: 4rem;
+    margin-bottom: 5%;
+    padding-left: 8%; 
+    text-align: left;
+    color: white;
+}
+
+.cta2{
+    text-align: center;
+    margin-left: -10%;
+}
+
+
+.feat .left {
+    width: 1000%;
+    flex-direction: column; 
+    flex-direction: column;  
+}
+
+.feat .middle {
+    margin-top: 100%;
+    width: 1000%;
+    flex-direction: column; 
+    margin-left: -100%;
+    flex-direction: column;  
+}
+
+.feat .right {
+    margin-top: 200%;
+    width: 1000%;
+    flex-direction: column; 
+    margin-left: -100%;
+    flex-direction: column;  
+}
+
+.feat .left img{
+    height: 50vh;
+    flex-direction: column; 
+    width: 450px;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.feat .left h1{
+    color: white;
+    font-size: 30px;
+    margin-top: -15%;
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+    width: 90%;
+    z-index: 1;
+    /* position: relative; */
+} 
+
+.feat .left h2{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -25%;
+    margin-bottom: 7% ;
+    text-transform: capitalize;
+}
+
+.feat .left p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2rem;
+    color: gray;
+}
+
+.feat .middle img{
+    height: 50vh;
+    flex-direction: column; 
+    width: 450px;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.feat .middle h1{
+    color: white;
+    font-size: 30px;
+    margin-top: -15%;
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+    width: 90%;
+    z-index: 1;
+    /* position: relative; */
+} 
+
+.feat .middle h2{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -25%;
+    margin-bottom: 7% ;
+    text-transform: capitalize;
+}
+
+.feat .middle p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2rem;
+    color: gray;
+}
+
+
+.feat .right img{
+    height: 50vh;
+    flex-direction: column; 
+    width: 450px;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.feat .right h1{
+    color: white;
+    font-size: 30px;
+    margin-top: -15%;
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+    width: 90%;
+    z-index: 1;
+    /* position: relative; */
+} 
+
+.feat .right h2{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: -25%;
+    margin-bottom: 7% ;
+    text-transform: capitalize;
+}
+
+.feat .right p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2rem;
+    color: gray;
+}
+
+
+.menus{
+    display: flex;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    max-width: 90%;
+    margin-top: 160%;
+}
+
+
+.menus .col-right{
+    width: 100%;
+    padding-right: 2%;
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: left;
+}
+
+.menueTwo .menuleft{
+    flex-basis: 100%;
+    width: 100%;
+    margin-right: 4%;
+    padding: 20% auto;
+    flex-direction: column;  
+}
+.menuleft table{
+    height: 40vh;
+    width: 200%;
+}
+
+
+
+
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (min-width:1200px) {
+    
+    #header .hamburger{
+        display: none;
+    }
+
+    #header .nav-list ul{
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    #header .nav-list ul li{
+        display: inline-block;
+    }
+
+    #header .nav-list ul a{
+        font-size: 1.8rem;
+    }
+
+    #header .nav-list ul a::after{
+        display: none;
+    }
+    
+} */
