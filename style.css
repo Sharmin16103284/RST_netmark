@@ -722,7 +722,7 @@ h1 a:hover{
 }
 
 .order .col-left .about-image img{
-    height: 75%;
+    height: 70%;
     margin-top: -10%;
     width: 43%;
     /* margin-left: -18%; */
@@ -1159,7 +1159,7 @@ h1 a:hover{
 .delivery .col-left{
     flex-basis: 50%;
     margin-top: -5%;
-    height: 70vh;
+    height: 65vh;
     width: 100%;
     align-items: center;
     flex-direction: column; 
